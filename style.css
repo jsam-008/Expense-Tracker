@@ -1,0 +1,75 @@
+body {
+  background: #0d1b2a; /* dark navy blue */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+  width: 320px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0d1b2a; /* dark blue text */
+}
+
+form {
+  display: none;
+}
+
+form.active {
+  display: block;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #1e3a8a; /* rich dark blue */
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #1e3a8a; /* dark blue */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #0a2472; /* deeper navy blue */
+}
+
+.toggle-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.toggle-text a {
+  color: #1e3a8a; /* dark blue link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.toggle-text a:hover {
+  text-decoration: underline;
+}
